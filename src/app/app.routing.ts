@@ -9,6 +9,7 @@ import { PageListComponent } from './pages/page-list/page-list.component';
  * โดย { path : 'url', component : ComponentOfPath };
  */
 const appRoutes: Routes = [
+    /**
     // Start When Multiple outlet with outlet name
     { path: '', children: [
         {
@@ -18,6 +19,8 @@ const appRoutes: Routes = [
             path: '', component: HomeComponent
         }
     ]}, // End When Multiple outlet
+    */
+    { path: '', component: HomeComponent },
     { path: 'pages', component: PageListComponent },
     { path: 'create', component: PageCreateComponent },
     { path: 'about', component: AboutComponent}
