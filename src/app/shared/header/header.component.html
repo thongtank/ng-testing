@@ -1,0 +1,20 @@
+<header class='header'>
+    <nav>
+        <a href='/' class='brand'>Karoonlar iV Wiki!</a>
+        <ul class='menu'>
+            <li class='menu__item'>
+                <!-- routerLink='/pages' คือ path ที่อยู่ใน app.routing.ts -->
+                <!-- routerLinkActive='action' ถ้าเรากำลังอยู่ที่หน้าใน path ของ routerLink ให้ใส่ css class = action โดยอัตโนมัติ -->
+                <!-- ถ้าหากไม่ได้อยู่หน้าใน path จะ remove เอา class = action ออกไป -->
+                <a routerLink='/pages' routerLinkActive='action' class='menu__link'>
+                    All Pages
+                </a>
+            </li>
+            <li class='menu__item'>
+                <a routerLink='/about' routerLinkActive='action' class='menu__link'>
+                    About Us
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>

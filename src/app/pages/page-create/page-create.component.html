@@ -1,0 +1,13 @@
+<h2>Create Page</h2>
+<form (submit)="createPage()">
+    <label for="pageId">ID:</label>
+    <input type="number" [(ngModel)]="pageId" name="pageId">
+    <br>
+    <label for="pageTitle">Title:</label>
+    <input type="text" [(ngModel)]="pageTitle" name="pageTitle">
+    <br>
+    <label for="pageContent">Content:</label>
+    <input type="text" [(ngModel)]="pageContent" name="pageContent">
+    <br>
+    <button type="submit" class="btn btn-danger">Save</button>
+</form>
